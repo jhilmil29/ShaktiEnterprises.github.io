@@ -1,0 +1,114 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                    url("../images/christopher-burns-8KfCR12oeUM-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: justify;
+}
+
+.nav-link, .navbar-brand {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover, .navbar-brand:hover, .nav-link.active, .navbar-brand.active {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-weight: 700;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.rounded {
+  width: 500px;
+  border-radius: 20px !important;
+  height: 40vw;
+}
+
+@media (max-width: 768px) {
+  .rounded {
+    height: auto;
+    width: 75vw;
+  }  
+}
+
+
+.shadow-box {
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5));
+  border-radius: 20px;
+}
+@media (max-width: 768px) {
+  .shadow-box{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+.link {
+    color: rgba(255, 255, 255, 0.9);
+    border-bottom: 2px solid transparent;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    background-color: rgba(230, 150, 15, 0.8);
+    border-radius: 8px;
+    margin: 2rem .75rem;
+}
+
+@media (max-width: 768px) {
+  .link {
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 4px;
+  }
+}
+
+.link:hover {
+    background-color: rgba(230, 150, 15, 1);
+}
+
+
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+#newSizeLink{
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+
+
+
+footer {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+  color: rgba(255, 255, 255, 0.8);
+}
